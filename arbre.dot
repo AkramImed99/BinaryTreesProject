@@ -1,0 +1,32 @@
+digraph "Test dotise " {
+node [shape=circle]
+a [color=black, fontcolor=black]
+b [color=black, fontcolor=black]
+c [color=black, fontcolor=black]
+d [color=black, fontcolor=black]
+e [color=black, fontcolor=black]
+f [color=black, fontcolor=black]
+g [color=black, fontcolor=black]
+h [color=black, fontcolor=black]
+i [color=black, fontcolor=black]
+j [color=black, fontcolor=black]
+k [color=black, fontcolor=black]
+l [color=black, fontcolor=black]
+m [color=black, fontcolor=black]
+n [color=black, fontcolor=black]
+o [color=black, fontcolor=black]
+h -> d
+h -> l
+d -> b
+d -> f
+b -> a
+b -> c
+f -> e
+f -> g
+l -> j
+l -> n
+j -> i
+j -> k
+n -> m
+n -> o
+}
